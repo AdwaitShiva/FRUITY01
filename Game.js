@@ -92,7 +92,9 @@ class Game{
                   }
                 
 
-         
+       if (fruitGroup.isTouching(player)) {
+           fruitGroup.destroy()
+       }
          
         
          
